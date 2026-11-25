@@ -32,5 +32,5 @@ void copy_name(char (&dst)[8], const char* src)
 
 int percent(int part, int whole)
 {
-    return part / whole * 100;
+    return part * 100 / whole;
 }
